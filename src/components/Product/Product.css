@@ -18,12 +18,22 @@
  .confirmToBasket {
      height: 300px;
      width: 300px;
-     background-color: #325c15;
+     background-color: #060211;
      position: absolute;
      display: flex;
      align-items: flex-end;
      justify-content: center;
      opacity: 0.9;
+     left: 550px;
+     font-size: 26px;
+ }
+
+ .confirmToBasket button{
+     font-size: 18px;
+ }
+
+ .confirmToBasket input {
+     font-size: 18px;
  }
 
  .buttonConfirm{
