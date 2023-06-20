@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import {Products} from "./components/Products/Products";
+import {Navigate, Route, Routes} from "react-router-dom";
+import {MainLayout} from "./layouts/MainLayout";
+import {ProductsPage} from "./pages/ProductsPage";
+import {ProductInfoPage} from "./pages/ProductInfoPage";
+import {BasketPage} from "./pages/BasketPage";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    // const func = async () => {
+    //
+    //     const res = await axiosService.get(baseURL);
+    //     console.log(res);
+    // };
+    //
+    // func();
+
+    return (
+        <Routes>
+            <Route path={'/'} element={<MainLayout/>}>
+                <Route index element={<Navigate to={'products'}/>}/>
+                <Route path={'products'} element={<ProductsPage/>}/>
+                <Route path={'product/:productId'} element={<ProductInfoPage/>}/>
+                <Route path={'basket'} element={<BasketPage/>}/>
+            </Route>
+        </Routes>
+    );
 }
 
 export default App;

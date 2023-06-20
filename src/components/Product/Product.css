@@ -1,0 +1,31 @@
+ .productsListCard img{
+    width: 200px;
+}
+
+ .productsListCard{
+     margin: 50px;
+     width: 500px;
+     height: 400px;
+     background-color: #140406;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: whitesmoke;
+     font-size: 18px;
+ }
+
+ .confirmToBasket {
+     height: 300px;
+     width: 300px;
+     background-color: #325c15;
+     position: absolute;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     opacity: 0.9;
+ }
+
+ .buttonConfirm{
+     margin: 20px;
+ }

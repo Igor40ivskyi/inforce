@@ -1,0 +1,26 @@
+.basketItemCard img{
+    width: 300px;
+    height: 350px;
+}
+
+.basketItemCard {
+    font-size: 20px;
+    font-family: Bahnschrift;
+    color: darkgreen;
+    margin: 30px;
+    background-color: #bebaba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 540px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.commentBlock {
+    margin: 20px;
+    color: black;
+    font-size: 16px;
+    font-family: "Arial Unicode MS";
+}

@@ -1,0 +1,25 @@
+.chosenProductCard img{
+    height: 600px;
+    width: 500px;
+}
+
+.chosenProductCard {
+    margin: 100px;
+    font-family: Arial;
+    font-size: 20px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+
+}
+
+.textCard{
+    margin: 20px;
+}
+
+.imgCard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
