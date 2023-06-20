@@ -10,6 +10,7 @@
     font-family: Bahnschrift;
     color: snow;
     text-decoration: none;
+    font-size: 22px;
 }
 
 .header a.active {

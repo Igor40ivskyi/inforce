@@ -1,7 +1,7 @@
 import './Product.css';
 import {useNavigate} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
-import {productActions} from "../../redux/slices/products.slice";
+import {productActions} from "../../redux";
 import {useForm} from "react-hook-form";
 
 const Product = ({product}) => {

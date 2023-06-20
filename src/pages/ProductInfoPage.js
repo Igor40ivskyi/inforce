@@ -1,9 +1,9 @@
-import {ProductInfo} from "../components/ProductInfo/ProductInfo";
 import {useEffect} from "react";
-import {productService} from "../services/product.service";
 import {useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
-import {productActions} from "../redux/slices/products.slice";
+
+import {ProductInfo} from "../components";
+import {productActions} from "../redux";
 
 const ProductInfoPage = () => {
 

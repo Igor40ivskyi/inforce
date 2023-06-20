@@ -1,5 +1,4 @@
-import {Basket} from "../components/Basket/Basket";
-import {useSelector} from "react-redux";
+import {Basket} from "../components";
 
 const BasketPage = () => {
 

@@ -1,6 +1,7 @@
 import {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {productActions} from "../../redux/slices/products.slice";
+
+import {productActions} from "../../redux";
 import {Product} from "../Product/Product";
 
 const Products = () => {

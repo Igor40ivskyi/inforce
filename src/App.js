@@ -1,20 +1,11 @@
-import './App.css';
-import {Products} from "./components/Products/Products";
 import {Navigate, Route, Routes} from "react-router-dom";
-import {MainLayout} from "./layouts/MainLayout";
-import {ProductsPage} from "./pages/ProductsPage";
-import {ProductInfoPage} from "./pages/ProductInfoPage";
-import {BasketPage} from "./pages/BasketPage";
+
+import {MainLayout} from "./layouts";
+import {ProductsPage} from "./pages";
+import {ProductInfoPage} from "./pages";
+import {BasketPage} from "./pages";
 
 function App() {
-
-    // const func = async () => {
-    //
-    //     const res = await axiosService.get(baseURL);
-    //     console.log(res);
-    // };
-    //
-    // func();
 
     return (
         <Routes>
